@@ -7,15 +7,17 @@
 
 <body>
   <script language="javascript">
-  var name=window.prompt("What's your name ?");
-  window.alert("Your name is " + name);
-  var quest=window.prompt("What is your quest ?");
-  if (quest=="to seek for the holy grail") {
-    window.alert("Good");
-  }
-  else {
-    window.alert("Arrrgh");
-  }
+var age=window.prompt("How old are you ?");
+if (age<30) {
+  window.alert("You'll be 30 years in "+(30-age)+" years.");
+}
+else if (age>30) {
+  window.alert("You were 30 "+(age-30)+" years ago.");
+}
+else {
+  window.alert("Bienvenue dans la trentaine");
+}
+
   </script>
 
 </body>
